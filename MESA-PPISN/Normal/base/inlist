@@ -1,0 +1,25 @@
+
+&star_job
+
+      history_columns_file ='/home/BHMG2/ppisn_sim/many_jobs_old/base/history_columns.list'
+      profile_columns_file ='/home/BHMG2/ppisn_sim/many_jobs_old/base/profile_columns.list'
+      read_extra_star_job_inlist1 = .true.
+      extra_star_job_inlist1_name = '/home/BHMG2/ppisn_sim/many_jobs_old/base/inlist_ppisn_mtg'
+
+/ ! end of star_job namelist
+
+
+&controls
+
+      read_extra_controls_inlist1 = .true.
+      extra_controls_inlist1_name = '/home/BHMG2/ppisn_sim/many_jobs_old/base/inlist_ppisn_mtg'
+
+/ ! end of controls namelist
+
+
+&pgstar
+
+      read_extra_pgstar_inlist2 = .true.
+      extra_pgstar_inlist2_name = '/home/BHMG2/ppisn_sim/many_jobs_old/base/inlist_ppisn_mtg'
+
+/ ! end of pgstar namelist
